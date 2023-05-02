@@ -60,43 +60,7 @@ export const RightSide = styled.div`
     display: flex;
     flex-direction: column;
 `
-export const Table = styled.div`
-    width: 100%;
-    height: 112px;
-    background-color: #121212;
-    margin-top: 100px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-`
-export const TableHeader = styled.div`
-    width: 100%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid;
-    
-    h1{
-        font-size: 25px;
-        font-weight: 600;
-        color: #CBCBCB;
-    }
-`
-export const TableLine = styled.div`
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid;
-    p{
-        font-size: 20px;
-        font-weight: 500;
-        margin-left: 30px;
-        margin-right: 80px;
-        color: #CBCBCB;
-    }
-`
+
 export const RightSideButton = styled.button`
     width: 100%;
     height: 70px;

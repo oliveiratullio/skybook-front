@@ -1,7 +1,8 @@
 import Header from "../../components/header/Header";
 import {IoMdCart} from "react-icons/io"
 import CartItem from "../../components/cartItem/CartItem";
-import { CartContainer, LeftSide, LeftSideHeader, Cart, BigCell, SmallCell, RightSide, Table, TableHeader, TableLine, RightSideButton} from "./style"
+import { CartContainer, LeftSide, LeftSideHeader, Cart, BigCell, SmallCell, RightSide, RightSideButton} from "./style"
+import CartTable from "../../components/cartTable/CartTable";
 
 export default function CartPage(){
     return (
@@ -22,15 +23,7 @@ export default function CartPage(){
                     <CartItem />
                 </LeftSide>
                 <RightSide>
-                    <Table>
-                        <TableHeader>
-                            <h1>Resumo</h1>
-                        </TableHeader>
-                        <TableLine>
-                            <p>Total</p>
-                            <p>R$89,70</p>
-                        </TableLine>
-                    </Table>
+                    <CartTable />
                     <RightSideButton>
                     <IoMdCart color="#FFFFFF" size="25"/>
                        <p>FINALIZAR PEDIDO</p>
