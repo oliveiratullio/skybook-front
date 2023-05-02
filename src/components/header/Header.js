@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import styled from "styled-components"
 import { MdAccountCircle, MdContactSupport, } from "react-icons/md"
 import { IoMdHeart, IoMdCart, IoIosMenu } from "react-icons/io"
 import { HeaderContainer, HeaderLine, Logo, TopHeaderCell, ShoppingCart, Categories, TextBox, SearchInput } from "./style"
@@ -41,6 +40,7 @@ export default function Header(){
                     <h2>FAVORITOS</h2>
                 </div>
             </TopHeaderCell>
+            <Link style={{textDecoration: "none"}} to="/carrinho" >
             <ShoppingCart>
                <div>
                    <IoMdCart size="30"/>
@@ -50,6 +50,7 @@ export default function Header(){
                     <p>0 produto</p>
                </div>
             </ShoppingCart>
+            </Link>
         </HeaderLine>
         <HeaderLine>
             <Categories>

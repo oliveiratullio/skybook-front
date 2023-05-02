@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import styled from "styled-components"
 import Item from "../../components/item/Item"
 import Header from "../../components/header/Header"

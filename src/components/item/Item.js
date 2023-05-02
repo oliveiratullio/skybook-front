@@ -17,7 +17,6 @@ export default function Item(){
 export const BookItem = styled.div`
     width: 250px;
     height: 380px;
-    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
