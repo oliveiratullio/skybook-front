@@ -16,10 +16,12 @@ export default function Header(){
                 <div>
                     <MdAccountCircle color="#EF4F26" size="30"/>
                 </div>
+                <Link style={{textDecoration: "none"}} to="/cadastrar">
                 <div>
                     <p>MINHA CONTA</p>
                     <h2>ENTRAR/CADASTRO</h2>
                 </div>
+                </Link>
             </TopHeaderCell>
             <TopHeaderCell> 
                 <div>

@@ -90,10 +90,11 @@ export const TextBox = styled.div`
     margin-left: 10px;
 `
 export const SearchInput = styled.input` 
-    width: 750px;
+    width: 740px;
     height: 40px;
     margin-left: 30px;
     border-radius: 5px;
     border: none;
     background-color: #121212;
+    padding-left: 10px;
 `

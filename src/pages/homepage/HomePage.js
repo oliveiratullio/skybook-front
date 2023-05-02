@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import styled from "styled-components"
-import Header from "../components/hearder/Header"
-import Item from "../components/item/Item"
+import Item from "../../components/item/Item"
+import Header from "../../components/header/Header"
 
 
 
@@ -16,7 +16,6 @@ export default function HomePage(){
                 <Item />
                 <Item />
                 <Item />
-
                 <Item />
                 <Item />
                 <Item />
